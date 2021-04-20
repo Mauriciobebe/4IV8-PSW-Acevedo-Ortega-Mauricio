@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Problemas JavaS</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script src="JS/7.js"></script>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <div>
+            <h4>
+                7.- Leer dos números: si son iguales, que los multiplique; si el primero es 
+                mayor que el segundo, que los reste y, si no, que los sume.
+            </h4>
+    </div>
+
+    <div>
+        <form method="POST" name="formulario">
+                <table align="center">
+                    
+                    <tr>
+                        <td class="td_sup">
+                            Escribe el primer numero:
+                        </td>
+        
+                        <td class="td_inf">
+                            <input type="text" name="nuno" onkeypress="return validarn(event)">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_sup">
+                            Escriba el segundo numero:
+                        </td>
+        
+                        <td class="td_inf">
+                            <input type="text" name="ndos" onkeypress="return validarn(event)">
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td></td>
+                        <td class="td_inf"> 
+                            <input type="button" value="Calcular" name="enviar" onclick="calculo()">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="td_sup">
+                            Resultado de la operacion: 
+                        </td>
+                        <td>
+                            <input type="text" name="resultado" id="cantidadi" readonly="readonly" class="input_text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="button" value="Borrar" name="Borrar" onclick="borrar()">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+    </div>
+
+
+    <footer>
+        <center><a href="index.html">Menu</a></center>
+    </footer>
+</body>
+
+</html>
